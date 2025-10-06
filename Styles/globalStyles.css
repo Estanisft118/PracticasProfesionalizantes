@@ -1,0 +1,40 @@
+/* Hero personalizado para carreras */
+#hero-carrera img {
+	width: 80%;
+	max-width: 700px;
+	height: 220px;
+	object-fit: cover;
+	margin: 0 auto;
+	display: block;
+}
+*{
+	box-sizing: content-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.box{
+	width: 30vh;
+	padding:1rem;
+	height: 30rem;
+	border-radius: 8px;
+	margin: 15px;
+	border: 2px solid gray;
+}
+.box-noticias{
+	border: 2px solid gray;
+	border-radius: 8px;
+	margin: 15px;
+	padding: 1rem;
+}
+.imagenesIlu{
+	width: 335px;
+	height: 300px;
+}
+a{
+	color: white;
+}
+.fondo{
+	background-image:url("https://i.pinimg.com/736x/ba/0b/09/ba0b097db8a8b414ded1491b3541325f.jpg");
+	background-size: auto;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Panel Administrador</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-dark text-white p-4">
+    <h2 class="mb-4">Panel de Administración</h2>
+    <h4>Actualizar noticias</h4>
+     <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Agregar Nueva Noticia</h5>
+        <form id="formAgregarNoticia">
+          <div class="mb-3">
+            <label for="titulo" class="form-label">Título</label>
+            <input type="text" class="form-control" id="titulo" required>
+          </div>
+          <div class="mb-3">
+            <label for="contenido" class="form-label">Contenido</label>
+            <textarea class="form-control" id="contenido" rows="3" required></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="fecha" class="form-label">Fecha</label>
+            <input type="date" class="form-control" id="fecha" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Agregar Noticia</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Lista de noticias -->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Noticias Recientes</h5>
+        <ul class="list-group" id="listaNoticias"></ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <textarea id="noticias" class="form-control mb-3" rows="4"></textarea>
+    <h4>Actualizar imágenes</h4>
+    <input type="file" id="imagenInput" multiple class="form-control mb-3" />
+    <button id="guardar" class="btn btn-success">Guardar cambios</button>
+    <script>
+      const token = localStorage.getItem("token");
+      if (!token) window.location.href = "login.html";
+      async function cargarContenido() {
+        const res = await fetch("http://localhost:4000/contenido");
+        const data = await res.json();
+        document.getElementById("noticias").value = data.noticias;
+      }
+      document.getElementById("guardar").addEventListener("click", async () => {
+        const noticias = document.getElementById("noticias").value;
+        await fetch("http://localhost:4000/contenido", {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify({ noticias }),
+        });
+        alert("Contenido actualizado correctamente");
+      });
+      cargarContenido();
+      </script>
+      <script>
+        const apiUrl = "http://localhost:4000/noticias";
+    
+        // Función para cargar noticias (máximo 5 más recientes)
+        async function cargarNoticias() {
+          const res = await fetch(apiUrl);
+          const noticias = await res.json();
+    
+          // Ordenar por fecha descendente
+          noticias.sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
+    
+          const lista = document.getElementById("listaNoticias");
+          lista.innerHTML = "";
+    
+          noticias.slice(0, 5).forEach(noticia => {
+            const li = document.createElement("li");
+            li.className = "list-group-item d-flex justify-content-between align-items-start";
+            li.innerHTML = `
+              <div>
+                <strong>${noticia.titulo}</strong>
+                <p class="mb-1">${noticia.contenido}</p>
+                <small>${noticia.fecha}</small>
+              </div>
+              <button class="btn btn-sm btn-danger" onclick="eliminarNoticia(${noticia.id})">Eliminar</button>
+            `;
+            lista.appendChild(li);
+          });
+        }
+    
+        // Función para agregar noticia
+        document.getElementById("formAgregarNoticia").addEventListener("submit", async (e) => {
+          e.preventDefault();
+    
+          const titulo = document.getElementById("titulo").value;
+          const contenido = document.getElementById("contenido").value;
+          const fecha = document.getElementById("fecha").value;
+    
+          await fetch(apiUrl, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ titulo, contenido, fecha })
+          });
+    
+          // Limpiar formulario y recargar lista
+          e.target.reset();
+          cargarNoticias();
+        });
+    
+        // Función para eliminar noticia
+        async function eliminarNoticia(id) {
+          await fetch(`${apiUrl}/${id}`, { method: "DELETE" });
+          cargarNoticias();
+        }
+    
+        // Cargar noticias al iniciar
+        cargarNoticias();
+      </script>
+  </body>
+</html>

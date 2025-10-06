@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "titulo": "Inscripciones abiertas 2025",
+    "contenido": "Ya se encuentran abiertas las inscripciones para el ciclo lectivo 2025.",
+    "fecha": "2025-10-01"
+  },
+  {
+    "id": 2,
+    "titulo": "Nuevo laboratorio de informática",
+    "contenido": "Se inauguró un nuevo laboratorio para las carreras tecnológicas.",
+    "fecha": "2025-09-15"
+  }
+]

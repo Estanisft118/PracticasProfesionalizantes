@@ -1,0 +1,166 @@
+{
+  "imagenes": [
+    "https://i.pinimg.com/736x/bb/3d/5e/bb3d5ead3434e17ac956be6b4183238f.jpg",
+    "https://i.pinimg.com/736x/bb/3d/5e/bb3d5ead3434e17ac956be6b4183238f.jpg",
+    "https://i.pinimg.com/736x/bb/3d/5e/bb3d5ead3434e17ac956be6b4183238f.jpg"
+  ],
+  "noticias": "Aquí encontrarás información relevante y comunicados importantes que el Instituto desea compartir con su comunidad.",
+  "carreras": [
+    {
+      "id": "software",
+      "nombre": "Tecnicatura Superior en Desarrollo de Software",
+      "duracion": "3 años",
+      "descripcion": "La carrera de Desarrollo de Software forma profesionales capaces de diseñar, desarrollar y mantener aplicaciones informáticas, abarcando desde la programación hasta la gestión de proyectos tecnológicos.",
+      "salidaLaboral": "Podrás trabajar en empresas de tecnología, consultoras, organismos públicos y privados, o como desarrollador independiente.",
+      "heroImg": "https://i.pinimg.com/736x/bb/3d/5e/bb3d5ead3434e17ac956be6b4183238f.jpg",
+      "materias": {
+        "primerAño": [
+          "Análisis Matemático",
+          "Administración y Gestión de Bases de Datos",
+          "Introducción a la Programación",
+          "Introducción a las Redes de Datos",
+          "Sistemas Digitales",
+          "Sistemas Operativos",
+          "Laboratorio de Hardware",
+          "Prácticas Profesionalizantes I"
+        ],
+        "segundoAño": [
+          "Inglés I",
+          "Desarrollo de Aplicativos Móviles",
+          "Álgebra y Lógica",
+          "Programación",
+          "Diseño Web",
+          "Estadísticas y Probabilidades",
+          "Desarrollo de Sistemas Orientado a Objetos",
+          "Prácticas Profesionalizantes II"
+        ],
+        "tercerAño": [
+          "Inglés II",
+          "Gestión de Proyectos",
+          "Desarrollo de Sistemas Web",
+          "Ingeniería de Software",
+          "Metodología de Pruebas de Sistemas",
+          "Prácticas Profesionalizantes III"
+        ]
+      }
+    },
+    {
+      "id": "enfermeria",
+      "nombre": "Tecnicatura Superior en Enfermería",
+      "duracion": "3 años",
+      "descripcion": "La carrera de Enfermería brinda conocimientos teóricos y prácticos para el cuidado integral de la salud, formando profesionales preparados para desempeñarse en distintos ámbitos sanitarios.",
+      "salidaLaboral": "Podrás trabajar en hospitales, clínicas, centros de salud, geriátricos y en atención domiciliaria.",
+      "heroImg": "https://i.pinimg.com/736x/bb/3d/5e/bb3d5ead3434e17ac956be6b4183238f.jpg",
+      "materias": {
+        "primerAño": [
+          "Psicología",
+          "Teorías Socioculturales de la Salud",
+          "Condiciones y Medioambiente del Trabajo",
+          "Salud Pública I",
+          "Biología Humana",
+          "Fundamentos del Cuidado",
+          "Cuidados de la Salud Centrados en la Comunidad y la Familia",
+          "Prácticas Profesionalizantes I"
+        ],
+        "segundoAño": [
+          "Comunicación en Ciencias de la Salud",
+          "Inglés",
+          "Introducción a la Metodología de la Salud",
+          "Nutrición y Dietoterapia",
+          "Salud Pública II",
+          "Farmacología en Enfermería",
+          "Enfermería Materno Infantil",
+          "Enfermería del Adulto y del Adulto Mayor",
+          "Prácticas Profesionalizantes II"
+        ],
+        "tercerAño": [
+          "Organización y Gestión de Servicios de Enfermería",
+          "Aspectos Bioéticos y Legales de la Profesión",
+          "Enfermería en Salud Mental",
+          "Enfermería Comunitaria y Práctica Educativa en Salud",
+          "Enfermería en Emergencias y Catástrofes",
+          "Prácticas Profesionalizantes III"
+        ]
+      }
+    },
+    {
+      "id": "contable",
+      "nombre": "Tecnicatura Superior en Administración Contable",
+      "duracion": "3 años",
+      "descripcion": "Formación en gestión administrativa y contable, orientada a la organización y control de recursos económicos en empresas y organismos.",
+      "salidaLaboral": "Podrás trabajar en estudios contables, empresas, bancos y organismos públicos.",
+      "heroImg": "https://i.pinimg.com/736x/bb/3d/5e/bb3d5ead3434e17ac956be6b4183238f.jpg",
+      "materias": {
+        "primerAño": [
+          "Contabilidad I",
+          "Matemática",
+          "Informática",
+          "Prácticas Profesionalizantes I"
+        ],
+        "segundoAño": [
+          "Contabilidad II",
+          "Matemática Financiera",
+          "Derecho Comercial",
+          "Gestión Administrativa",
+          "Prácticas Profesionalizantes II"
+        ],
+        "tercerAño": [
+          "Impuestos",
+          "Gestión de Recursos",
+          "Prácticas Profesionalizantes III"
+        ]
+      }
+    },
+    {
+      "id": "publica",
+      "nombre": "Tecnicatura Superior en Administración Pública",
+      "duracion": "3 años",
+      "descripcion": "Capacita para la gestión y administración en organismos estatales, con conocimientos en políticas públicas y procedimientos administrativos.",
+      "salidaLaboral": "Podrás trabajar en municipalidades, ministerios, entes autárquicos y organismos estatales.",
+      "heroImg": "https://i.pinimg.com/736x/bb/3d/5e/bb3d5ead3434e17ac956be6b4183238f.jpg",
+      "materias": {
+        "primerAño": [
+          "Introducción a la Administración Pública",
+          "Informática",
+          "Prácticas Profesionalizantes I"
+        ],
+        "segundoAño": [
+          "Derecho Administrativo",
+          "Políticas Públicas",
+          "Gestión de Recursos Humanos",
+          "Prácticas Profesionalizantes II"
+        ],
+        "tercerAño": [
+          "Contabilidad Pública",
+          "Gestión de Proyectos",
+          "Prácticas Profesionalizantes III"
+        ]
+      }
+    },
+    {
+      "id": "alimentos",
+      "nombre": "Tecnicatura Superior en Alimentos",
+      "duracion": "3 años",
+      "descripcion": "Formación en control de calidad, producción y gestión de alimentos, con conocimientos en bromatología y tecnología alimentaria.",
+      "salidaLaboral": "Podrás trabajar en industrias alimenticias, laboratorios, organismos de control y empresas de producción de alimentos.",
+      "heroImg": "https://i.pinimg.com/736x/bb/3d/5e/bb3d5ead3434e17ac956be6b4183238f.jpg",
+      "materias": {
+        "primerAño": [
+          "Química de Alimentos",
+          "Microbiología",
+          "Prácticas Profesionalizantes I"
+        ],
+        "segundoAño": [
+          "Tecnología de Alimentos",
+          "Bromatología",
+          "Gestión de Calidad",
+          "Prácticas Profesionalizantes II"
+        ],
+        "tercerAño": [
+          "Control de Calidad",
+          "Prácticas Profesionalizantes III"
+        ]
+      }
+    }
+  ]
+}
