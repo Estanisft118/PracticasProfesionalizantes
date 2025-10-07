@@ -1,13 +1,15 @@
 import fs from "fs";
 import path from "path";
-
-const dataPath = path.resolve("data/noticias.json");
+import { fileURLToPath } from "url";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const dataPath = path.join(__dirname, "../data/noticias.json");
 
 export const obtenerNoticias = (req, res) => {
   try {
     const data = fs.readFileSync(dataPath, "utf8");
     const noticias = JSON.parse(data);
-    res.json(noticias);
+    res.json({ noticias });
   } catch (error) {
     res.status(500).json({ error: "Error al leer las noticias" });
   }
@@ -29,12 +31,10 @@ export const agregarNoticia = (req, res) => {
     noticias.push(nuevaNoticia);
     fs.writeFileSync(dataPath, JSON.stringify(noticias, null, 2));
 
-    res
-      .status(201)
-      .json({
-        mensaje: "Noticia agregada correctamente",
-        noticia: nuevaNoticia,
-      });
+    res.status(201).json({
+      mensaje: "Noticia agregada correctamente",
+      noticia: nuevaNoticia,
+    });
   } catch (error) {
     res.status(500).json({ error: "Error al guardar la noticia" });
   }

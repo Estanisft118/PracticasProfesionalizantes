@@ -4,6 +4,9 @@
 	padding: 0;
 	text-decoration: none;
 }
+h1{
+  color: #000;
+}
 .box{
 	width: 30vh;
 	padding:1rem;
@@ -14,7 +17,7 @@
 }
 /* Noticias */
 .noticias-content h2 {
-  color: #fff;
+  color: #000;
 }
 
 #noticias-grid {

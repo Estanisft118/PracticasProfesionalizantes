@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "titulo": "Inscripciones abiertas 2025",
+    "contenido": "Ya se encuentran abiertas las inscripciones para el ciclo lectivo 2025.",
+    "fecha": "2025-10-01"
+  },
+  {
+    "id": 3,
+    "titulo": "Probando Noticias",
+    "contenido": "Este es una prueba de agregado de noticia nueva.",
+    "fecha": "2025-10-07"
+  }
+]

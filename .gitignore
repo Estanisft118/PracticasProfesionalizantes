@@ -1,0 +1,13 @@
+# Ignorar node_modules de backend y frontend
+backend/node_modules/
+frontend/node_modules/
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de entorno
+.env
+
+# Opcional: ignorar dist/build si lo tenés
+dist/
+build/
