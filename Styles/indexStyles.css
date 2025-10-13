@@ -4,6 +4,18 @@
 	padding: 0;
 	text-decoration: none;
 }
+.superior{
+  text-align: center;
+  background-color: #FFBA49;
+  height: 40px;
+  margin-bottom: 5px;
+}
+.titulo{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+}
 h1{
   color: #000;
 }
@@ -15,27 +27,41 @@ h1{
 	margin: 15px;
 	border: 2px solid gray;
 }
-/* Noticias */
-.noticias-content h2 {
-  color: #000;
-}
-
-#noticias-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card {
-  border: none;
-  border-radius: 10px;
-  overflow: hidden;
+/* Noticias: tarjetas rectangulares */
+.noticias-content .card {
+  background-color: #ffffff;
+  border-left: 5px solid #FFBA49;
+  border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+.noticias-content .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.noticias-content .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.noticias-content .card-text {
+  font-size: 0.95rem;
+  color: #495057;
+}
+.titulo-noticias{
+  background-color: #FFBA49;
+  color: #A4A9AD;
+  font-weight: 300;
+  
+}
+.nav-link{
+  color: #A4A9AD;
+  font-size: 1.1rem;
+}
+.nav-link:hover{
+  color: #FFBA49;
 }
 
 .card img {
@@ -65,17 +91,17 @@ a{
 }
 
 .carrusel-thumbs img.thumb:hover {
-  border-color: #0d6efd; /* azul bootstrap */
+  border-color: #FFBA49;
 }
 #carruselBootstrap {
-  max-height: 400px; /* Ajustá este valor a gusto (300–500px queda bien) */
+  max-height: 400px;
   overflow: hidden;
   border-radius: 10px;
 }
 
-/* Asegura que las imágenes se adapten correctamente */
+
 #carruselBootstrap .carousel-item img {
-  height: 400px; /* mismo valor que arriba */
+  height: 400px;
   object-fit: cover;
   width: 100%;
 }
@@ -83,8 +109,18 @@ a{
   background-color: #f8f9fa;
   color: #212529;
 }
-/* Hacer que el botón contraste */
+
 #contacto .btn-primary {
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #FFBA49;
+  border-color: #FFBA49;
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, #000000, #12002e) 1;
 }

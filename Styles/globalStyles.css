@@ -8,10 +8,16 @@
 	display: block;
 }
 *{
-	box-sizing: content-box;
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
+}
+.superior{
+  text-align: center;
+  background-color: #FFBA49;
+  height: 40px;
+  margin-bottom: 5px;
 }
 .box{
 	width: 30vh;
@@ -34,7 +40,23 @@
 a{
 	color: white;
 }
+.nav-link{
+  color: #A4A9AD;
+  font-size: 1.1rem;
+}
+.nav-link:hover{
+  color: #FFBA49;
+}
 .fondo{
 	background-image:url("https://i.pinimg.com/736x/ba/0b/09/ba0b097db8a8b414ded1491b3541325f.jpg");
 	background-size: auto;
+}
+footer {
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, #000000, #12002e) 1;
 }

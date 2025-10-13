@@ -10,5 +10,17 @@
     "titulo": "Probando Noticias",
     "contenido": "Este es una prueba de agregado de noticia nueva.",
     "fecha": "2025-10-07"
+  },
+  {
+    "id": 4,
+    "titulo": "Formularios de Inscripción",
+    "contenido": "A partir del 17 de noviembre se pueden adquirir formularios de inscripción en Biblioteca (de 19:00 a 21:00hs)",
+    "fecha": "2025-10-13"
+  },
+  {
+    "id": 5,
+    "titulo": "Inscripciones",
+    "contenido": "01 al 19 de Diciembre de 2025\n16 al 27 de Febrero de 2026\n(de 19:00 a 21:00hs)",
+    "fecha": "2025-10-13"
   }
 ]

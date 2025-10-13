@@ -23,22 +23,22 @@ async function cargarNoticias() {
     }
 
     ultimasNoticias.forEach((noticia) => {
-      const div = document.createElement("div");
-      div.className = "col-md-4";
+  const div = document.createElement("div");
+  div.className = "col-12 col-md-6 col-lg-4 d-flex";
 
-      div.innerHTML = `
-        <div class="card bg-dark text-white h-100 border-light shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">${noticia.titulo}</h5>
-            <p class="card-text">${noticia.contenido}</p>
-          </div>
-          <div class="card-footer text-muted text-end">
-            ${new Date(noticia.fecha).toLocaleDateString("es-AR")}
-          </div>
+  div.innerHTML = `
+    <div class="card h-100 w-100 shadow-sm d-flex flex-column">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title text-dark">${noticia.titulo}</h5>
+        <p class="card-text text-muted flex-grow-1">${noticia.contenido}</p>
+        <div class="mt-auto text-end">
+          <small class="text-muted">${new Date(noticia.fecha).toLocaleDateString("es-AR")}</small>
         </div>
-      `;
-      contenedor.appendChild(div);
-    });
+      </div>
+    </div>
+  `;
+  contenedor.appendChild(div);
+});
   } catch (error) {
     console.error(error);
     document.getElementById(
