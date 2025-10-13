@@ -12,10 +12,12 @@
   </head>
   <body class="text-white d-flex flex-column min-vh-100">
     <!-- Header -->
-    <header class="bg-secondary bg-gradient p-3">
+    <header class="bg-gradient p-3">
       <div class="container d-flex align-items-center justify-content-between">
         <!-- Logo -->
-        <div class="bg-dark" style="width: 60px; height: 60px"></div>
+        <div class="bg-dark" style="width: 60px; height: 60px">
+          <img src="./Assets/logoNav.jpg" alt="Logo Instituto Superior de Formación Técnica 118" class="img-fluid h-100 w-100"/>
+        </div>
         <!-- Navbar -->
         <ul class="nav nav-pills">
           <li class="nav-item align-items-center">
@@ -126,6 +128,75 @@
         <h2 class="mb-4">Noticias del Instituto</h2>
         <div id="noticias-grid" class="row g-4"></div>
       </section>
+      <!-- =======  SECCIÓN CONTACTO  ======= -->
+<section id="contacto" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contacto</h2>
+
+    <div class="row gx-4 align-items-start">
+      <!-- Columna izquierda: datos -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <h5 class="mb-3">Instituto Superior de Formación Técnica Nº 118</h5>
+
+        <p class="mb-1"><strong>Dirección:</strong><br>
+          Bottaro 1001, San Pedro<br>
+          Provincia de Buenos Aires</p>
+
+        <p class="mb-1"><strong>Teléfono:</strong><br>
+          <a href="tel:+543329123456">+54 3329 123-456</a></p>
+
+        <p class="mb-1"><strong>Correo:</strong><br>
+          <a href="mailto:info@isft118.edu.ar">info@isft118.edu.ar</a></p>
+
+        <p class="mb-0"><strong>Horarios de atención:</strong><br>
+          Lunes a viernes: 18:00 – 23:00 hs</p>
+      </div>
+
+      <!-- Columna derecha: formulario -->
+      <div class="col-md-6">
+        <div id="msg-ok" class="alert alert-success d-none"></div>
+       <form id="formContacto"
+      action="https://formsubmit.co/estangeno@gmail.com"
+      method="POST">
+
+  <!-- =========  CAMPOS NORMALES  ========= -->
+  <div class="mb-3">
+    <label for="nombre" class="form-label">Nombre y apellido</label>
+    <input type="text" class="form-control" id="nombre" name="nombre" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="email" class="form-label">Correo electrónico</label>
+    <input type="email" class="form-control" id="email" name="email" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="asunto" class="form-label">Asunto</label>
+    <input type="text" class="form-control" id="asunto" name="asunto" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="mensaje" class="form-label">Mensaje</label>
+    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+  </div>
+
+  <!-- =========  CONFIG EXTRAS DE FORMSUBMIT  ========= -->
+  <input type="hidden" name="_subject" value="Nueva consulta desde la web">
+  <!-- No redirigir a FormSubmit (evita 405 en local) -->
+  <input type="hidden" name="_redirect" value="false">
+  <!-- reCAPTCHA activado -->
+  <input type="hidden" name="_captcha" value="true">
+  <!-- Honeypot antispam -->
+  <input type="text" name="_honey" style="display:none">
+
+  <!-- Botón -->
+  <button type="submit" class="btn btn-primary w-100">Enviar consulta</button>
+</form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- =======  /FIN CONTACTO  ======= -->
     </main>
 
     <!-- Footer -->
@@ -135,5 +206,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="/Js/index.js"></script>
     <script type="module" src="./Js/noticias.js"></script>
+    <script type="module" src="/Js/form.js"></script>
   </body>
 </html>

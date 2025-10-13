@@ -1,5 +1,5 @@
 *{
-	box-sizing: content-box;
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
@@ -51,7 +51,8 @@ display: block;
 border-radius: 8px;
 }
 a{
-	color: white;
+	color: black;
+  text-decoration: none;
 }
 .carrusel-thumbs img.thumb {
   width: 80px;
@@ -77,4 +78,13 @@ a{
   height: 400px; /* mismo valor que arriba */
   object-fit: cover;
   width: 100%;
+}
+#contacto {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+/* Hacer que el botón contraste */
+#contacto .btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
 }
