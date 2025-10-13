@@ -7,7 +7,6 @@ async function cargarNoticias() {
     if (!res.ok) throw new Error("Error al cargar noticias");
 
     const data = await res.json();
-    console.log("Respuesta del backend:", data);
 
     // Asegurarnos de que sea un array
     const noticias = Array.isArray(data) ? data : data.noticias || [];
