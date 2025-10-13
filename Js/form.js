@@ -12,6 +12,7 @@ form.addEventListener("submit", async (e) => {
     if (res.ok) {
       // Éxito: mostramos mensaje y limpiamos el form
       document.getElementById("msg-ok").innerText = "¡Consulta enviada!";
+      console.log(res);
       document.getElementById("msg-ok").classList.remove("d-none");
       form.reset();
     } else {
