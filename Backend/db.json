@@ -92,22 +92,33 @@
       "heroImg": "https://i.pinimg.com/736x/bb/3d/5e/bb3d5ead3434e17ac956be6b4183238f.jpg",
       "materias": {
         "primerAño": [
-          "Contabilidad I",
-          "Matemática",
-          "Informática",
-          "Prácticas Profesionalizantes I"
+          "Derecho",
+          "Ingles I",
+          "Principios de Administraciòn",
+          "Economìa",
+          "Fundamentos de Matemàtica",
+          "Principios de Contabilidad",
+          "Gestiòn Administrativo Contable",
+          "Pràcticas Profesionalizantes I: Aproximaciòn al campo laboral"
         ],
         "segundoAño": [
-          "Contabilidad II",
-          "Matemática Financiera",
+          "Ingles II",
+          "Tecnologìas y Sistemas para la Administraciòn",
+          "Derecho Laboral",
           "Derecho Comercial",
-          "Gestión Administrativa",
-          "Prácticas Profesionalizantes II"
+          "Contabilidad de Gestiòn",
+          "Costos y Planificaciòn",
+          "Matemàtica Financiera",
+          "Prácticas Profesionalizantes II: Diseño de Proyectos de Administraciòn"
         ],
         "tercerAño": [
-          "Impuestos",
-          "Gestión de Recursos",
-          "Prácticas Profesionalizantes III"
+          "Administraciòn Financiera",
+          "Administraciòn Estratègica",
+          "Tècnica Impositiva y Laboral",
+          "Règimen Tributario",
+          "Gestiòn de Estados Contables",
+          "Finanzas de Empresas",
+          "Prácticas Profesionalizantes III: Gestiòn e Implementaciòn de Proyectos de Administraciòn"
         ]
       }
     },
@@ -120,20 +131,34 @@
       "heroImg": "https://i.pinimg.com/736x/bb/3d/5e/bb3d5ead3434e17ac956be6b4183238f.jpg",
       "materias": {
         "primerAño": [
-          "Introducción a la Administración Pública",
-          "Informática",
-          "Prácticas Profesionalizantes I"
+          "Derecho",
+          "Ingles",
+          "Principios de Administraciòn",
+          "Economìa",
+          "Fundamentos de Matemàtica",
+          "Principios de Contabilidad",
+          "Estado, Sociedad, Procesos Polìticos y Econòmicos",
+          "Prácticas Profesionalizantes I: Aproximaciòn al Campo Laboral"
         ],
         "segundoAño": [
-          "Derecho Administrativo",
-          "Políticas Públicas",
-          "Gestión de Recursos Humanos",
-          "Prácticas Profesionalizantes II"
+          "Comunicaciòn",
+          "Matemàtica Financiera",
+          "Derecho Laboral y Relaciones Laborales",
+          "Derecho Pùblico",
+          "Contabilidad Pùblica",
+          "Polìticas Pùblicas y Desarrollo Territorial",
+          "Administraciòn Pùblica",
+          "Tecnologìas y Sistemas para la Administraciòn Pùblica",
+          "Prácticas Profesionalizantes II: Diseño de Proyectos de Administaciòn"
         ],
         "tercerAño": [
-          "Contabilidad Pública",
-          "Gestión de Proyectos",
-          "Prácticas Profesionalizantes III"
+          "Administraciòn Financiera",
+          "Desarrollo Territorial y Planificaciòn Estratègica",
+          "Finanzas Pùblicas y Tècnica Tributaria",
+          "Derecho Administrativo",
+          "Administraciòn de Personal",
+          "Proyectos de Inversiòn",
+          "Prácticas Profesionalizantes III: Gestiòn e Implementaciòn de Proyectos de Administraciòn"
         ]
       }
     },
@@ -146,19 +171,33 @@
       "heroImg": "https://i.pinimg.com/736x/bb/3d/5e/bb3d5ead3434e17ac956be6b4183238f.jpg",
       "materias": {
         "primerAño": [
-          "Química de Alimentos",
-          "Microbiología",
-          "Prácticas Profesionalizantes I"
+          "Quìmica General e Inorgànica (1º cuat.)",
+          "Matemàtica (1º cuat.)",
+          "Biologia (Anual)",
+          "Inglès (Anual)",
+          "Producciòn Primaria de los Alimentos (1º cuat.)",
+          "Fisicoquìmica (2º cuat.)",
+          "Estadìstica y Probabilidades (2º cuat.)",
+          "Quìmica de los Alimentos (2º cuat.)",
+          "Prácticas Profesionalizantes I: Aproximaciòn al Campo Laboral (Anual)"
         ],
         "segundoAño": [
-          "Tecnología de Alimentos",
-          "Bromatología",
-          "Gestión de Calidad",
-          "Prácticas Profesionalizantes II"
+          "Ciencia, Tecnologìa y Sociedad (Anual)",
+          "Operaciones Unitarias (Anual)",
+          "Microbiologia General y de los Alimentos (1º cuat.)",
+          "Bromatologìa (1º cuat.)",
+          "Procesos de Conservaciòn (2º cuat.)",
+          "Gestiòn de Calidad (2º cuat.)",
+          "Prácticas Profesionalizantes II: Diseño de Proyectos de Producciòn de Alimentos (Anual)"
         ],
         "tercerAño": [
-          "Control de Calidad",
-          "Prácticas Profesionalizantes III"
+          "Organizacion y Gestiòn de Emprendimientos de Producciòn de Alimentos (Anual)",
+          "Nutriciòn (Anual)",
+          "Tecnologìa de Cereales y Oleaginosas (1º cuat.)",
+          "Tecnologìa de Proteìnas Animales (1º cuat.)",
+          "Tecnologìa de Frutas y Hortalizas (2º cuat.)",
+          "Tecnologìa de Làcteos (2º cuat.)",
+          "Prácticas Profesionalizantes III: Implementaciòn de Proyectos de Producciòn de Alimentos (Anual)"
         ]
       }
     }
