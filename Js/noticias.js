@@ -12,7 +12,7 @@ async function cargarNoticias() {
     const noticias = Array.isArray(data) ? data : data.noticias || [];
 
     // Ordenar por fecha y tomar las 5 más recientes
-    const ultimasNoticias = noticias.slice(-5).reverse();
+    const ultimasNoticias = noticias.slice(-6).reverse();
 
     const contenedor = document.getElementById("noticias-grid");
     contenedor.innerHTML = "";

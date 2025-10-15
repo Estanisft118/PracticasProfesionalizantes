@@ -1,26 +1,14 @@
 [
   {
     "id": 1,
-    "titulo": "Inscripciones abiertas 2025",
-    "contenido": "Ya se encuentran abiertas las inscripciones para el ciclo lectivo 2025.",
-    "fecha": "2025-10-01"
-  },
-  {
-    "id": 3,
-    "titulo": "Probando Noticias",
-    "contenido": "Este es una prueba de agregado de noticia nueva.",
-    "fecha": "2025-10-07"
-  },
-  {
-    "id": 4,
-    "titulo": "Formularios de Inscripción",
-    "contenido": "A partir del 17 de noviembre se pueden adquirir formularios de inscripción en Biblioteca (de 19:00 a 21:00hs)",
+    "titulo": "Inscripciones",
+    "contenido": "01 al 19 de Diciembre de 2025\n16 al 27 de Febrero de 2026\n(de 19:00 a 21:00hs)",
     "fecha": "2025-10-13"
   },
   {
-    "id": 5,
-    "titulo": "Inscripciones",
-    "contenido": "01 al 19 de Diciembre de 2025\n16 al 27 de Febrero de 2026\n(de 19:00 a 21:00hs)",
+    "id": 2,
+    "titulo": "Formularios de Inscripción",
+    "contenido": "A partir del 17 de noviembre se pueden adquirir formularios de inscripción en Biblioteca\nde 19:00 a 21:00HS.",
     "fecha": "2025-10-13"
   }
 ]
