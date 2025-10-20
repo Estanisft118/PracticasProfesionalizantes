@@ -10,5 +10,11 @@
     "titulo": "Formularios de Inscripción",
     "contenido": "A partir del 17 de noviembre se pueden adquirir formularios de inscripción en Biblioteca\nde 19:00 a 21:00HS.",
     "fecha": "2025-10-13"
+  },
+  {
+    "id": 3,
+    "titulo": "Cronograma Segundo Cuatrimestre",
+    "contenido": "03/11 al 14/11 Periodo recuperatorio.\n17/11 al 20/11 Entrega de notas.\n25/11 al 28/11 Condición Estudiantes Libres y Promoción directa.\n01/12 al 19/12 Exámenes Finales.\n14/11 Cierre Prácticas Profesionalizantes en Terreno.\n27/11 y 28/11 Cierre de notas Prácticas Profesionalizantes.",
+    "fecha": "2025-10-20"
   }
 ]
