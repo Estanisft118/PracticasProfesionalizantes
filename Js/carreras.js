@@ -3,7 +3,7 @@ import { renderCarrera } from "./carrerasRender.js";
 
 // Detectar el nombre de la carrera según el nombre del archivo HTML
 const path = window.location.pathname;
-const carreraId = path.split("/").pop().replace(".html", ""); // Ej: "software"
+const carreraId = path.split("/").pop().replace(".html", "");
 
 (async () => {
   try {
