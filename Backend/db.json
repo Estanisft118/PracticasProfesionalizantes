@@ -13,6 +13,8 @@
       "descripcion": "La carrera de Desarrollo de Software forma profesionales capaces de diseñar, desarrollar y mantener aplicaciones informáticas, abarcando desde la programación hasta la gestión de proyectos tecnológicos.",
       "salidaLaboral": "Podrás trabajar en empresas de tecnología, consultoras, organismos públicos y privados, o como desarrollador independiente.",
       "heroImg": "https://www.senati.edu.pe/sites/default/files/2017/carrera/09/desarrollo-de-software-senati-1800-x-1190_0.jpg",
+      "resolucion":"Nº 5847/19",
+      "titulo": "DESARROLLADOR DE SOFTWARE",
       "materias": {
         "primerAño": [
           "Análisis Matemático",
@@ -51,6 +53,8 @@
       "descripcion": "La carrera de Enfermería brinda conocimientos teóricos y prácticos para el cuidado integral de la salud, formando profesionales preparados para desempeñarse en distintos ámbitos sanitarios.",
       "salidaLaboral": "Podrás trabajar en hospitales, clínicas, centros de salud, geriátricos y en atención domiciliaria.",
       "heroImg": "https://elnumeral.com/wp-content/uploads/2022/09/tecnicas-enfermeria.jpg",
+      "resolucion":"Nº 854/16",
+      "titulo":"ENFERMERO",
       "materias": {
         "primerAño": [
           "Psicología",
@@ -90,6 +94,8 @@
       "descripcion": "Formación en gestión administrativa y contable, orientada a la organización y control de recursos económicos en empresas y organismos.",
       "salidaLaboral": "Podrás trabajar en estudios contables, empresas, bancos y organismos públicos.",
       "heroImg": "https://almerimatikformacion.es/wp-content/uploads/2021/05/administracion-contabilidad-negocios-1024x536.png",
+      "resolucion":"Nº 455/23",
+      "titulo":"TÉCNICA/O SUPERIOR EN ADMINISTRACIÓN CONTABLE",
       "materias": {
         "primerAño": [
           "Derecho",
@@ -129,6 +135,8 @@
       "descripcion": "Capacita para la gestión y administración en organismos estatales, con conocimientos en políticas públicas y procedimientos administrativos.",
       "salidaLaboral": "Podrás trabajar en municipalidades, ministerios, entes autárquicos y organismos estatales.",
       "heroImg": "https://th.bing.com/th/id/R.15e5968b7937665b140d252e615410c0?rik=NyfHvpxJdNnMbQ&pid=ImgRaw&r=0",
+      "resolucion":"Nº 457/23",
+      "titulo":"TÉCNICA/O SUPERIOR EN ADMINISTRACIÓN PÚBLICA",
       "materias": {
         "primerAño": [
           "Derecho",
@@ -169,6 +177,8 @@
       "descripcion": "Formación en control de calidad, producción y gestión de alimentos, con conocimientos en bromatología y tecnología alimentaria.",
       "salidaLaboral": "Podrás trabajar en industrias alimenticias, laboratorios, organismos de control y empresas de producción de alimentos.",
       "heroImg": "https://escuelaalimentaria.com/wp-content/uploads/2023/10/Que-hace-un-tecnico-en-Industria-Alimentaria.png",
+      "resolucion":"Nº 5563/23",
+      "titulo":"TÉCNICA/O SUPERIOR EN ALIMENTOS ",
       "materias": {
         "primerAño": [
           "Quìmica General e Inorgànica (1º cuat.)",
