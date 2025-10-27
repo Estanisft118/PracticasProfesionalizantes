@@ -8,6 +8,10 @@
 - Dia 6: Ausente
 - Dia 7: Maquetado del formulario de contacto y seleccion de colores.
 - Dia 8: Programamos formulario de contacto, dimos funcionalidad al Formulario y diseñamos el Footer.
+- Dia 9: Rediseño de index
+- Dia 10: Ausente
+- Dia 11: Rediseño de seccion carreras, contacto y footer
+
 
 ## Tareas:
 - Diseño de Sitio Web: layout(index) + seccion carreras ✔
@@ -17,9 +21,9 @@
 - Estilizar textos.✔
 - Estilizar Seccion Carreras.✔
 - Realizar Footer y Seccion de Contactos.✔
-- Realizar Responsividad.
-- Colocar Certificaciones que otorga cada carrera.
-- Rediseñar esteticamente la seccion de carreras.
+- Realizar Responsividad.✔
+- Colocar Certificaciones que otorga cada carrera.✔
+- Rediseñar esteticamente la seccion de carreras.✔
 ---
 ## Documentaciòn
 Sitio web del Instituto Superior de Formaciòn Tècnica Nº 118.
