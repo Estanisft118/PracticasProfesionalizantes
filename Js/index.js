@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     slide.innerHTML = `
       <img src="${carrera.heroImg}" class="d-block w-100" alt="${carrera.nombre}">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="banner-title carousel-caption d-none d-md-block">
         <h5>${carrera.nombre}</h5>
       </div>
     `;

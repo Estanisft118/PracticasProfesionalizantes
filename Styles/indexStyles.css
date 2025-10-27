@@ -4,6 +4,20 @@
 	padding: 0;
 	text-decoration: none;
 }
+.banner-title{
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+  background: rgba(0,0,0,.45);
+  color: #fff;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
 .superior{
   text-align: center;
   background-color: #FFBA49;
