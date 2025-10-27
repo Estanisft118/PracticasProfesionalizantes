@@ -25,6 +25,14 @@
 - Colocar Certificaciones que otorga cada carrera.✔
 - Rediseñar esteticamente la seccion de carreras.✔
 ---
+## Posibles mejoras:
+* Noticias
+    - Pasar de seccion a pantalla (para ver en detalle la noticia).
+* Carreras
+    - Agregar seccion de noticias en cada una de las carreras.
+* Index
+    - Boton de ver mas en noticias (para ir a la pantalla de noticias).
+    - Redes sociales en Footer.
 ## Documentaciòn
 Sitio web del Instituto Superior de Formaciòn Tècnica Nº 118.
 --
