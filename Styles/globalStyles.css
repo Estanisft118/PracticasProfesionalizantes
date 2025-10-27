@@ -51,6 +51,96 @@ a{
 	background-image:url("https://i.pinimg.com/736x/ba/0b/09/ba0b097db8a8b414ded1491b3541325f.jpg");
 	background-size: auto;
 }
+/* ---------- FICHA CARRERA (amarillo logo ISFT118) ---------- */
+.heroBack{
+  background-color: #FFBA49;
+  color: #222;
+}
+.banner-img{
+  width: 100%;
+  height: 280px;           /* ajustá según tu gusto */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.banner-title{
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+  background: rgba(0,0,0,.45);
+  color: #fff;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+
+.card-carrera{
+  background: #fff;
+  color: #000;
+  border-radius: 0;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  padding: 1.5rem 0;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-carrera h2{
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: .75rem;
+  text-align: center;
+  letter-spacing: -.5px;
+}
+.card-carrera .datos{
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.card-carrera .datos p{
+  margin: .2rem 0;
+}
+
+.card-carrera .badge-res{
+  display: inline-block;
+  background: #f2f2f2;
+  color: #000;
+  padding: .2rem .5rem;
+  border-radius: 4px;
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}
+
+.card-carrera ul{
+  list-style: none;
+  padding-left: 0;
+  margin: .8rem 0 0 0;
+  font-size: .95rem;
+}
+
+.card-carrera ul li{
+  margin-bottom: .4rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.card-carrera ul li::before{
+  content: "•";
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+
+
+@media (max-width: 576px){
+  .card-carrera{ padding: 1.5rem; }
+}
 footer {
   background-color: #f8f9fa;
   color: #212529;
