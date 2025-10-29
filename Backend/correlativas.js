@@ -25,7 +25,7 @@ const enfermeria= {
 		"Prácticas Profesionalizantes II"
 	]
 }
-// Falta finalizar y agregar de mas correlativas de otras carreras
+// Falta finalizar y agregar de mas correlativas de otras carreras 
 const contable={
 	"Contabilidad de Gestiòn":[],
 	"Matemàtica para Administraciòn":[],
