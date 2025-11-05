@@ -7,83 +7,84 @@
   "noticias": "Aquí encontrarás información relevante y comunicados importantes que el Instituto desea compartir con su comunidad.",
   "carreras": [
     {
-  "id": "software",
-  "nombre": "Tecnicatura Superior en Desarrollo de Software",
-  "duracion": "3 años",
-  "descripcion": "La carrera de Desarrollo de Software forma profesionales capaces de diseñar, desarrollar y mantener aplicaciones informáticas...",
-  "salidaLaboral": "Podrás trabajar en empresas de tecnología...",
-  "heroImg": "https://th.bing.com/th/id/R.351f87bfe21989dcb5cee904caca0a6f?rik=4wLOAMaSpj8Z1w&pid=ImgRaw&r=0",
-  "resolucion": "Nº 5847/19",
-  "titulo": "DESARROLLADOR DE SOFTWARE",
-  "materias": {
-    "primerAño": [
-      { "nombre": "Análisis Matemático", "correlativas": [] },
-      { "nombre": "Administración y Gestión de Bases de Datos", "correlativas": [] },
-      { "nombre": "Introducción a la Programación", "correlativas": [] },
-      { "nombre": "Introducción a las Redes de Datos", "correlativas": [] },
-      { "nombre": "Sistemas Digitales", "correlativas": [] },
-      { "nombre": "Sistemas Operativos", "correlativas": [] },
-      { "nombre": "Laboratorio de Hardware", "correlativas": [] },
-      { "nombre": "Prácticas Profesionalizantes I", "correlativas": [] }
-    ],
-    "segundoAño": [
-      { "nombre": "Inglés I", "correlativas": [] },
-      { "nombre": "Desarrollo de Aplicativos Móviles", "correlativas": ["Introducción a la Programación"] },
-      { "nombre": "Álgebra y Lógica", "correlativas": ["Análisis Matemático"] },
-      { "nombre": "Programación", "correlativas": ["Introducción a la Programación"] },
-      { "nombre": "Diseño Web", "correlativas": [] },
-      { "nombre": "Estadísticas y Probabilidades", "correlativas": ["Introducción a la Programación", "Análisis Matemático"] },
-      { "nombre": "Desarrollo de Sistemas Orientado a Objetos", "correlativas": ["Introducción a la Programación", "Sistemas Operativos"] },
-      { "nombre": "Prácticas Profesionalizantes II", "correlativas": ["Prácticas Profesionalizantes I", "Laboratorio de Hardware", "Administración y Gestión de Bases de Datos"] }
-    ],
-    "tercerAño": [
-      { "nombre": "Inglés II", "correlativas": ["Inglés I"] },
-      { "nombre": "Gestión de Proyectos", "correlativas": [] },
-      { "nombre": "Desarrollo de Sistemas Web", "correlativas": ["Introducción a la Programación", "Administración y Gestión de Bases de Datos", "Diseño Web"] },
-      { "nombre": "Ingeniería de Software", "correlativas": ["Programación", "Estadísticas y Probabilidades"] },
-      { "nombre": "Metodología de Pruebas de Sistemas", "correlativas": ["Desarrollo de Sistemas Orientado a Objetos", "Programación", "Diseño Web"] },
-      { "nombre": "Prácticas Profesionalizantes III", "correlativas": ["Prácticas Profesionalizantes II", "Programación", "Desarrollo de Sistemas Orientado a Objetos", "Diseño Web", "Desarrollo de Aplicativos Móviles"] }
-    ]
-  }
-},
+      "id": "software",
+      "nombre": "Tecnicatura Superior en Desarrollo de Software",
+      "duracion": "3 años",
+      "descripcion": "La carrera de Desarrollo de Software forma profesionales capaces de diseñar, desarrollar y mantener aplicaciones informáticas...",
+      "salidaLaboral": "Podrás trabajar en empresas de tecnología...",
+      "heroImg": "https://th.bing.com/th/id/R.351f87bfe21989dcb5cee904caca0a6f?rik=4wLOAMaSpj8Z1w&pid=ImgRaw&r=0",
+      "resolucion": "Nº 5847/19",
+      "titulo": "DESARROLLADOR DE SOFTWARE",
+      "materias": {
+        "primerAño": [
+          { "nombre": "Análisis Matemático", "correlativas": [] },
+          { "nombre": "Administración y Gestión de Bases de Datos", "correlativas": [] },
+          { "nombre": "Introducción a la Programación", "correlativas": [] },
+          { "nombre": "Introducción a las Redes de Datos", "correlativas": [] },
+          { "nombre": "Sistemas Digitales", "correlativas": [] },
+          { "nombre": "Sistemas Operativos", "correlativas": [] },
+          { "nombre": "Laboratorio de Hardware", "correlativas": [] },
+          { "nombre": "Prácticas Profesionalizantes I", "correlativas": [] }
+        ],
+        "segundoAño": [
+          { "nombre": "Inglés I", "correlativas": [] },
+          { "nombre": "Desarrollo de Aplicativos Móviles", "correlativas": ["Introducción a la Programación"] },
+          { "nombre": "Álgebra y Lógica", "correlativas": ["Análisis Matemático"] },
+          { "nombre": "Programación", "correlativas": ["Introducción a la Programación"] },
+          { "nombre": "Diseño Web", "correlativas": [] },
+          { "nombre": "Estadísticas y Probabilidades", "correlativas": ["Introducción a la Programación", "Análisis Matemático"] },
+          { "nombre": "Desarrollo de Sistemas Orientado a Objetos", "correlativas": ["Introducción a la Programación", "Sistemas Operativos"] },
+          { "nombre": "Prácticas Profesionalizantes II", "correlativas": ["Prácticas Profesionalizantes I", "Laboratorio de Hardware", "Administración y Gestión de Bases de Datos"] }
+        ],
+        "tercerAño": [
+          { "nombre": "Inglés II", "correlativas": ["Inglés I"] },
+          { "nombre": "Gestión de Proyectos", "correlativas": [] },
+          { "nombre": "Desarrollo de Sistemas Web", "correlativas": ["Introducción a la Programación", "Administración y Gestión de Bases de Datos", "Diseño Web"] },
+          { "nombre": "Ingeniería de Software", "correlativas": ["Programación", "Estadísticas y Probabilidades"] },
+          { "nombre": "Metodología de Pruebas de Sistemas", "correlativas": ["Desarrollo de Sistemas Orientado a Objetos", "Programación", "Diseño Web"] },
+          { "nombre": "Prácticas Profesionalizantes III", "correlativas": ["Prácticas Profesionalizantes II", "Programación", "Desarrollo de Sistemas Orientado a Objetos", "Diseño Web", "Desarrollo de Aplicativos Móviles"] }
+        ]
+      }
+    },
     {
       "id": "enfermeria",
       "nombre": "Tecnicatura Superior en Enfermería",
       "duracion": "3 años",
-      "descripcion": "La carrera de Enfermería brinda conocimientos teóricos y prácticos para el cuidado integral de la salud, formando profesionales preparados para desempeñarse en distintos ámbitos sanitarios.",
-      "salidaLaboral": "Podrás trabajar en hospitales, clínicas, centros de salud, geriátricos y en atención domiciliaria.",
+      "descripcion": "La carrera de Enfermería brinda conocimientos teóricos y prácticos para el cuidado integral de la salud...",
+      "salidaLaboral": "Podrás trabajar en hospitales, clínicas...",
       "heroImg": "https://elnumeral.com/wp-content/uploads/2022/09/tecnicas-enfermeria.jpg",
-      "resolucion":"Nº 854/16",
-      "titulo":"ENFERMERO",
+      "resolucion": "Nº 854/16",
+      "titulo": "ENFERMERO",
       "materias": {
         "primerAño": [
-          "Psicología",
-          "Teorías Socioculturales de la Salud",
-          "Condiciones y Medioambiente del Trabajo",
-          "Salud Pública I",
-          "Biología Humana",
-          "Fundamentos del Cuidado",
-          "Cuidados de la Salud Centrados en la Comunidad y la Familia",
-          "Prácticas Profesionalizantes I"
+          { "nombre": "Psicología", "correlativas": [] },
+          { "nombre": "Teorías Socioculturales de la Salud", "correlativas": [] },
+          { "nombre": "Condiciones y Medioambiente del Trabajo", "correlativas": [] },
+          { "nombre": "Salud Pública I", "correlativas": [] },
+          { "nombre": "Biología Humana", "correlativas": [] },
+          { "nombre": "Fundamentos del Cuidado", "correlativas": [] },
+          { "nombre": "Cuidados de la Salud Centrados en la Comunidad y la Familia", "correlativas": [] },
+          { "nombre": "Prácticas Profesionalizantes I", "correlativas": [] }
         ],
         "segundoAño": [
-          "Comunicación en Ciencias de la Salud",
-          "Inglés",
-          "Introducción a la Metodología de la Salud",
-          "Nutrición y Dietoterapia",
-          "Salud Pública II",
-          "Farmacología en Enfermería",
-          "Enfermería Materno Infantil",
-          "Enfermería del Adulto y del Adulto Mayor I",
-          "Prácticas Profesionalizantes II"
+          { "nombre": "Comunicación en Ciencias de la Salud", "correlativas": [] },
+          { "nombre": "Inglés", "correlativas": [] },
+          { "nombre": "Introducción a la Metodología de la Salud", "correlativas": [] },
+          { "nombre": "Nutrición y Dietoterapia", "correlativas": [] },
+          { "nombre": "Salud Pública II", "correlativas": ["Salud Pública I"] },
+          { "nombre": "Farmacología en Enfermería", "correlativas": ["Biología Humana"] },
+          { "nombre": "Enfermería Materno Infantil", "correlativas": ["Cuidados de la Salud Centrados en la Comunidad y la Familia", "Fundamentos del Cuidado", "Psicología", "Biología Humana"] },
+          { "nombre": "Enfermería del Adulto y del Adulto Mayor I", "correlativas": ["Fundamentos del Cuidado", "Psicología", "Biología Humana"] },
+          { "nombre": "Prácticas Profesionalizantes II", "correlativas": ["Prácticas Profesionalizantes I"] }
         ],
         "tercerAño": [
-          "Organización y Gestión de Servicios de Enfermería",
-          "Aspectos Bioéticos y Legales de la Profesión Enfermería en Salud Mental",
-          "Enfermeria del Adulto y del Adulto Mayor II",
-          "Enfermería Comunitaria y Práctica Educativa en Salud",
-          "Enfermería en Emergencias y Catástrofes",
-          "Prácticas Profesionalizantes III"
+          { "nombre": "Organización y Gestión de Servicios de Enfermería", "correlativas": [] },
+          { "nombre": "Aspectos Bioéticos y Legales de la Profesión", "correlativas": [] },
+          { "nombre": "Enfermería en Salud Mental", "correlativas": [] },
+          { "nombre": "Enfermería del Adulto y del Adulto Mayor II", "correlativas": ["Enfermería del Adulto y del Adulto Mayor I", "Farmacología en Enfermería", "Nutrición y Dietoterapia"] },
+          { "nombre": "Enfermería Comunitaria y Práctica Educativa en Salud", "correlativas": [] },
+          { "nombre": "Enfermería en Emergencias y Catástrofes", "correlativas": [] },
+          { "nombre": "Prácticas Profesionalizantes III", "correlativas": ["Prácticas Profesionalizantes II"] }
         ]
       }
     },
@@ -91,41 +92,41 @@
       "id": "contable",
       "nombre": "Tecnicatura Superior en Administración Contable",
       "duracion": "3 años",
-      "descripcion": "Formación en gestión administrativa y contable, orientada a la organización y control de recursos económicos en empresas y organismos.",
-      "salidaLaboral": "Podrás trabajar en estudios contables, empresas, bancos y organismos públicos.",
+      "descripcion": "Formación en gestión administrativa y contable...",
+      "salidaLaboral": "Podrás trabajar en estudios contables...",
       "heroImg": "https://almerimatikformacion.es/wp-content/uploads/2021/05/administracion-contabilidad-negocios-1024x536.png",
-      "resolucion":"Nº 455/23",
-      "titulo":"TÉCNICA/O SUPERIOR EN ADMINISTRACIÓN CONTABLE",
+      "resolucion": "Nº 455/23",
+      "titulo": "TÉCNICA/O SUPERIOR EN ADMINISTRACIÓN CONTABLE",
       "materias": {
         "primerAño": [
-          "Derecho",
-          "Ingles I",
-          "Principios de Administraciòn",
-          "Economìa",
-          "Fundamentos de Matemàtica",
-          "Principios de Contabilidad",
-          "Gestiòn Administrativo Contable",
-          "Pràcticas Profesionalizantes I: Aproximaciòn al campo laboral"
+          { "nombre": "Derecho", "correlativas": [] },
+          { "nombre": "Ingles I", "correlativas": [] },
+          { "nombre": "Principios de Administración", "correlativas": [] },
+          { "nombre": "Economía", "correlativas": [] },
+          { "nombre": "Fundamentos de Matemática", "correlativas": [] },
+          { "nombre": "Principios de Contabilidad", "correlativas": [] },
+          { "nombre": "Gestión Administrativo Contable", "correlativas": [] },
+          { "nombre": "Prácticas Profesionalizantes I: Aproximación al campo laboral", "correlativas": [] }
         ],
         "segundoAño": [
-          "Ingles II",
-          "Tecnologìas y Sistemas para la Administraciòn",
-          "Matemàtica para Administraciòn",
-          "Derecho Laboral",
-          "Derecho Comercial",
-          "Contabilidad de Gestiòn",
-          "Costos y Planificaciòn",
-          "Matemàtica Financiera",
-          "Prácticas Profesionalizantes II: Diseño de Proyectos de Administraciòn"
+          { "nombre": "Ingles II", "correlativas": ["Ingles I"] },
+          { "nombre": "Tecnologías y Sistemas para la Administración", "correlativas": ["Principios de Contabilidad", "Gestión Administrativo Contable"] },
+          { "nombre": "Matemática para Administración", "correlativas": ["Fundamentos de Matemática"] },
+          { "nombre": "Derecho Laboral", "correlativas": ["Derecho"] },
+          { "nombre": "Derecho Comercial", "correlativas": ["Derecho"] },
+          { "nombre": "Contabilidad de Gestión", "correlativas": ["Principios de Contabilidad"] },
+          { "nombre": "Costos y Planificación", "correlativas": ["Principios de Contabilidad"] },
+          { "nombre": "Matemática Financiera", "correlativas": ["Fundamentos de Matemática"] },
+          { "nombre": "Prácticas Profesionalizantes II: Diseño de Proyectos de Administración", "correlativas": ["Prácticas Profesionalizantes I: Aproximación al campo laboral"] }
         ],
         "tercerAño": [
-          "Administraciòn Financiera",
-          "Administraciòn Estratègica",
-          "Tècnica Impositiva y Laboral",
-          "Règimen Tributario",
-          "Gestiòn de Estados Contables",
-          "Finanzas de Empresas",
-          "Prácticas Profesionalizantes III: Gestiòn e Implementaciòn de Proyectos de Administraciòn"
+          { "nombre": "Administración Financiera", "correlativas": ["Matemática Financiera"] },
+          { "nombre": "Administración Estratégica", "correlativas": ["Contabilidad de Gestión"] },
+          { "nombre": "Técnica Impositiva y Laboral", "correlativas": ["Derecho Laboral", "Derecho Comercial"] },
+          { "nombre": "Régimen Tributario", "correlativas": ["Derecho Laboral", "Derecho Comercial"] },
+          { "nombre": "Gestión de Estados Contables", "correlativas": ["Contabilidad de Gestión", "Costos y Planificación"] },
+          { "nombre": "Finanzas de Empresas", "correlativas": ["Matemática Financiera", "Costos y Planificación", "Contabilidad de Gestión"] },
+          { "nombre": "Prácticas Profesionalizantes III: Gestión e Implementación de Proyectos de Administración", "correlativas": ["Prácticas Profesionalizantes II: Diseño de Proyectos de Administración"] }
         ]
       }
     },
@@ -133,41 +134,41 @@
       "id": "publica",
       "nombre": "Tecnicatura Superior en Administración Pública",
       "duracion": "3 años",
-      "descripcion": "Capacita para la gestión y administración en organismos estatales, con conocimientos en políticas públicas y procedimientos administrativos.",
-      "salidaLaboral": "Podrás trabajar en municipalidades, ministerios, entes autárquicos y organismos estatales.",
+      "descripcion": "Capacita para la gestión y administración en organismos estatales...",
+      "salidaLaboral": "Podrás trabajar en municipalidades...",
       "heroImg": "https://th.bing.com/th/id/R.15e5968b7937665b140d252e615410c0?rik=NyfHvpxJdNnMbQ&pid=ImgRaw&r=0",
-      "resolucion":"Nº 457/23",
-      "titulo":"TÉCNICA/O SUPERIOR EN ADMINISTRACIÓN PÚBLICA",
+      "resolucion": "Nº 457/23",
+      "titulo": "TÉCNICA/O SUPERIOR EN ADMINISTRACIÓN PÚBLICA",
       "materias": {
         "primerAño": [
-          "Derecho",
-          "Ingles",
-          "Principios de Administraciòn",
-          "Economìa",
-          "Fundamentos de Matemàtica",
-          "Principios de Contabilidad",
-          "Estado, Sociedad, Procesos Polìticos y Econòmicos",
-          "Prácticas Profesionalizantes I: Aproximaciòn al Campo Laboral"
+          { "nombre": "Derecho", "correlativas": [] },
+          { "nombre": "Ingles", "correlativas": [] },
+          { "nombre": "Principios de Administración", "correlativas": [] },
+          { "nombre": "Economía", "correlativas": [] },
+          { "nombre": "Fundamentos de Matemática", "correlativas": [] },
+          { "nombre": "Principios de Contabilidad", "correlativas": [] },
+          { "nombre": "Estado, Sociedad, Procesos Políticos y Económicos", "correlativas": [] },
+          { "nombre": "Prácticas Profesionalizantes I: Aproximación al Campo Laboral", "correlativas": [] }
         ],
         "segundoAño": [
-          "Comunicaciòn",
-          "Matemàtica Financiera",
-          "Derecho Laboral y Relaciones Laborales",
-          "Derecho Pùblico",
-          "Contabilidad Pùblica",
-          "Polìticas Pùblicas y Desarrollo Territorial",
-          "Administraciòn Pùblica",
-          "Tecnologìas y Sistemas para la Administraciòn Pùblica",
-          "Prácticas Profesionalizantes II: Diseño de Proyectos de Administaciòn"
+          { "nombre": "Comunicación", "correlativas": [] },
+          { "nombre": "Matemática Financiera", "correlativas": ["Fundamentos de Matemática"] },
+          { "nombre": "Derecho Laboral y Relaciones Laborales", "correlativas": ["Derecho"] },
+          { "nombre": "Derecho Público", "correlativas": ["Derecho"] },
+          { "nombre": "Contabilidad Pública", "correlativas": ["Principios de Contabilidad"] },
+          { "nombre": "Políticas Públicas y Desarrollo Territorial", "correlativas": ["Estado, Sociedad, Procesos Políticos y Económicos"] },
+          { "nombre": "Administración Pública", "correlativas": ["Principios de Administración"] },
+          { "nombre": "Tecnologías y Sistemas para la Administración Pública", "correlativas": ["Fundamentos de Matemática"] },
+          { "nombre": "Prácticas Profesionalizantes II: Diseño de Proyectos de Administración", "correlativas": ["Prácticas Profesionalizantes I: Aproximación al Campo Laboral"] }
         ],
         "tercerAño": [
-          "Administraciòn Financiera",
-          "Desarrollo Territorial y Planificaciòn Estratègica",
-          "Finanzas Pùblicas y Tècnica Tributaria",
-          "Derecho Administrativo",
-          "Administraciòn de Personal",
-          "Proyectos de Inversiòn",
-          "Prácticas Profesionalizantes III: Gestiòn e Implementaciòn de Proyectos de Administraciòn"
+          { "nombre": "Administración Financiera", "correlativas": ["Matemática Financiera"] },
+          { "nombre": "Desarrollo Territorial y Planificación Estratégica", "correlativas": ["Políticas Públicas y Desarrollo Territorial"] },
+          { "nombre": "Finanzas Públicas y Técnica Tributaria", "correlativas": ["Matemática Financiera", "Contabilidad Pública", "Administración Pública"] },
+          { "nombre": "Derecho Administrativo", "correlativas": ["Derecho Laboral y Relaciones Laborales", "Derecho Público"] },
+          { "nombre": "Administración de Personal", "correlativas": ["Principios de Administración"] },
+          { "nombre": "Proyectos de Inversión", "correlativas": ["Matemática Financiera", "Contabilidad Pública", "Administración Pública"] },
+          { "nombre": "Prácticas Profesionalizantes III: Gestión e Implementación de Proyectos de Administración", "correlativas": ["Prácticas Profesionalizantes II: Diseño de Proyectos de Administración"] }
         ]
       }
     },
@@ -175,40 +176,40 @@
       "id": "alimentos",
       "nombre": "Tecnicatura Superior en Alimentos",
       "duracion": "3 años",
-      "descripcion": "Formación en control de calidad, producción y gestión de alimentos, con conocimientos en bromatología y tecnología alimentaria.",
-      "salidaLaboral": "Podrás trabajar en industrias alimenticias, laboratorios, organismos de control y empresas de producción de alimentos.",
+      "descripcion": "Formación en control de calidad, producción y gestión de alimentos...",
+      "salidaLaboral": "Podrás trabajar en industrias alimenticias...",
       "heroImg": "https://escuelaalimentaria.com/wp-content/uploads/2023/10/Que-hace-un-tecnico-en-Industria-Alimentaria.png",
-      "resolucion":"Nº 5563/23",
-      "titulo":"TÉCNICA/O SUPERIOR EN ALIMENTOS ",
+      "resolucion": "Nº 5563/23",
+      "titulo": "TÉCNICA/O SUPERIOR EN ALIMENTOS ",
       "materias": {
         "primerAño": [
-          "Quìmica General e Inorgànica (1º cuat.)",
-          "Matemàtica (1º cuat.)",
-          "Biologia (Anual)",
-          "Inglès (Anual)",
-          "Producciòn Primaria de los Alimentos (1º cuat.)",
-          "Fisicoquìmica (2º cuat.)",
-          "Estadìstica y Probabilidades (2º cuat.)",
-          "Quìmica de los Alimentos (2º cuat.)",
-          "Prácticas Profesionalizantes I: Aproximaciòn al Campo Laboral (Anual)"
+          { "nombre": "Química General e Inorgánica (1º cuat.)", "correlativas": [] },
+          { "nombre": "Matemática (1º cuat.)", "correlativas": [] },
+          { "nombre": "Biología (Anual)", "correlativas": [] },
+          { "nombre": "Inglés (Anual)", "correlativas": [] },
+          { "nombre": "Producción Primaria de los Alimentos (1º cuat.)", "correlativas": [] },
+          { "nombre": "Fisicoquímica (2º cuat.)", "correlativas": [] },
+          { "nombre": "Estadística y Probabilidades (2º cuat.)", "correlativas": [] },
+          { "nombre": "Química de los Alimentos (2º cuat.)", "correlativas": [] },
+          { "nombre": "Prácticas Profesionalizantes I: Aproximación al Campo Laboral (Anual)", "correlativas": [] }
         ],
         "segundoAño": [
-          "Ciencia, Tecnologìa y Sociedad (Anual)",
-          "Operaciones Unitarias (Anual)",
-          "Microbiologia General y de los Alimentos (1º cuat.)",
-          "Bromatologìa (1º cuat.)",
-          "Procesos de Conservaciòn (2º cuat.)",
-          "Gestiòn de Calidad (2º cuat.)",
-          "Prácticas Profesionalizantes II: Diseño de Proyectos de Producciòn de Alimentos (Anual)"
+          { "nombre": "Ciencia, Tecnología y Sociedad (Anual)", "correlativas": [] },
+          { "nombre": "Operaciones Unitarias (Anual)", "correlativas": [] },
+          { "nombre": "Microbiología General y de los Alimentos (1º cuat.)", "correlativas": [] },
+          { "nombre": "Bromatología (1º cuat.)", "correlativas": [] },
+          { "nombre": "Procesos de Conservación (2º cuat.)", "correlativas": [] },
+          { "nombre": "Gestión de Calidad (2º cuat.)", "correlativas": [] },
+          { "nombre": "Prácticas Profesionalizantes II: Diseño de Proyectos de Producción de Alimentos (Anual)", "correlativas": ["Prácticas Profesionalizantes I: Aproximación al Campo Laboral (Anual)"] }
         ],
         "tercerAño": [
-          "Organizacion y Gestiòn de Emprendimientos de Producciòn de Alimentos (Anual)",
-          "Nutriciòn (Anual)",
-          "Tecnologìa de Cereales y Oleaginosas (1º cuat.)",
-          "Tecnologìa de Proteìnas Animales (1º cuat.)",
-          "Tecnologìa de Frutas y Hortalizas (2º cuat.)",
-          "Tecnologìa de Làcteos (2º cuat.)",
-          "Prácticas Profesionalizantes III: Implementaciòn de Proyectos de Producciòn de Alimentos (Anual)"
+          { "nombre": "Organización y Gestión de Emprendimientos de Producción de Alimentos (Anual)", "correlativas": [] },
+          { "nombre": "Nutrición (Anual)", "correlativas": [] },
+          { "nombre": "Tecnología de Cereales y Oleaginosas (1º cuat.)", "correlativas": ["Producción Primaria de los Alimentos (1º cuat.)", "Química de los Alimentos (2º cuat.)"] },
+          { "nombre": "Tecnología de Proteínas Animales (1º cuat.)", "correlativas": ["Producción Primaria de los Alimentos (1º cuat.)", "Química de los Alimentos (2º cuat.)"] },
+          { "nombre": "Tecnología de Frutas y Hortalizas (2º cuat.)", "correlativas": ["Producción Primaria de los Alimentos (1º cuat.)", "Química de los Alimentos (2º cuat.)"] },
+          { "nombre": "Tecnología de Lácteos (2º cuat.)", "correlativas": ["Producción Primaria de los Alimentos (1º cuat.)", "Química de los Alimentos (2º cuat.)"] },
+          { "nombre": "Prácticas Profesionalizantes III: Implementación de Proyectos de Producción de Alimentos (Anual)", "correlativas": ["Prácticas Profesionalizantes II: Diseño de Proyectos de Producción de Alimentos (Anual)"] }
         ]
       }
     }

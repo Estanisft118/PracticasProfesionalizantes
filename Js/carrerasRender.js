@@ -79,11 +79,11 @@ export function renderCarrera(carreraId, carreras) {
     carrera.materias[anio.key].forEach((item) => {
       const tr = document.createElement("tr");
       const td = document.createElement("td");
+
       const nombre = typeof item === "object" ? item.nombre : item;
       const correlativas = typeof item === "object" ? item.correlativas || [] : [];
 
       let html = nombre;
-
       if (correlativas.length > 0) {
         html += ` <span class="text-danger fw-bold" style="cursor:help" title="Correlativas: ${correlativas.join(", ")}">*</span>`;
       }
@@ -99,4 +99,67 @@ export function renderCarrera(carreraId, carreras) {
   });
 
   materiasEl.appendChild(row);
+
+  /* ---------- Botón y tabla de correlativas ---------- */
+  const btn = document.createElement("button");
+  btn.className = "btn mt-3";
+  btn.style.backgroundColor = "#FFBA49";
+  btn.style.border = "1px solid #FFBA49";
+  btn.style.color = "#212529";
+  btn.style.fontWeight = "500";
+  btn.textContent = "Correlativas";
+  btn.type = "button";
+  materiasEl.appendChild(btn);
+
+  /* Hover */
+  btn.addEventListener("mouseenter", () => {
+    btn.style.backgroundColor = "#e0a435";
+    btn.style.borderColor = "#e0a435";
+  });
+  btn.addEventListener("mouseleave", () => {
+    btn.style.backgroundColor = "#FFBA49";
+    btn.style.borderColor = "#FFBA49";
+  });
+
+  const tablaCorrelDiv = document.createElement("div");
+  tablaCorrelDiv.className = "mt-3 d-none";
+
+  const tablaCorrel = document.createElement("table");
+  tablaCorrel.className = "table table-sm table-bordered";
+  tablaCorrel.innerHTML = `
+    <thead class="table-light">
+      <tr>
+        <th>Materia</th>
+        <th>Correlativas</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  `;
+  tablaCorrelDiv.appendChild(tablaCorrel);
+  materiasEl.appendChild(tablaCorrelDiv);
+
+  /* ---------- Llenar la tabla de correlativas ---------- */
+  const correlTbody = tablaCorrel.querySelector("tbody");
+  anios.forEach((anio) => {
+    if (!carrera.materias[anio.key]) return;
+    carrera.materias[anio.key].forEach((item) => {
+      const nombre = typeof item === "object" ? item.nombre : item;
+      const correlativas = typeof item === "object" ? item.correlativas || [] : [];
+      if (correlativas.length === 0) return;
+
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${nombre}</td>
+        <td>${correlativas.join(", ")}</td>
+      `;
+      correlTbody.appendChild(tr);
+    });
+  });
+
+  /* ---------- Mostrar/ocultar tabla ---------- */
+  btn.addEventListener("click", () => {
+    const visible = !tablaCorrelDiv.classList.contains("d-none");
+    tablaCorrelDiv.classList.toggle("d-none", visible);
+    btn.textContent = visible ? "Correlativas" : "Ocultar correlativas";
+  });
 }

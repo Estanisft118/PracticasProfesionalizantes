@@ -3,14 +3,16 @@
 - Dia 1: Modelado y maquetado de: Inicio y paginas de carreras.
 - Dia 2: Comenzamos a programar el sitio web. empezando por el index siguiendo el maquetado.
 - Dia 3: Programamos las pantallas de las carreras y estilizamos las mismas.
-- Dia 4: Ausente
+- Dia 4: Ausente.
 - Dia 5: Carga de ofertas educativas, Programamos las paginas de cada carrera y agregamos estilos.
-- Dia 6: Ausente
+- Dia 6: Ausente.
 - Dia 7: Maquetado del formulario de contacto y seleccion de colores.
 - Dia 8: Programamos formulario de contacto, dimos funcionalidad al Formulario y diseñamos el Footer.
-- Dia 9: Rediseño de index
-- Dia 10: Ausente
-- Dia 11: Rediseño de seccion carreras, contacto y footer
+- Dia 9: Rediseño de index.
+- Dia 10: Ausente.
+- Dia 11: Rediseño de seccion carreras, contacto y footer.
+- Dia 12: Planificacion para agregar visibilidad a las correlativas.
+- Dia 13: Agregado de correlativas de materias en cada carrera.
 
 
 ## Tareas:
