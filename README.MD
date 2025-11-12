@@ -49,8 +49,9 @@ Recorriendo la seccion Carreras ( 5 paginas diferentes ) encontraremos: nombre d
 ### Levantar Proyecto
 - Paso 1: clonar o descargar el repositorio.
 - Paso 2: posicionarse en la ruta: /PracticasProfesionalizantes/backend.
-- Paso 3: ejecutar en consola el comando: npm run dev.
-- Paso 4: desde el archivo index.html levantar LiveServer (local).
+- Paso 3: npm I
+- Paso 4: ejecutar en consola el comando: npm run dev.
+- Paso 5: desde el archivo index.html levantar LiveServer (local).
 ---
 ## Tecnologias utilizadas:
 ### Frontend:
