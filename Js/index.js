@@ -54,4 +54,23 @@ document.addEventListener("DOMContentLoaded", async () => {
     interval: 3000,
     ride: "carousel",
   });
+  // ======= GALERÍA MASONRY NOSOTROS + MODAL =======
+  const galeria = document.querySelector(".galeria-instituto");
+  if (galeria) {
+    for (let i = 1; i <= 7; i++) {
+      const col = document.createElement("div");
+      col.className = "col-6 col-md-4 col-lg-3";
+      col.innerHTML = `
+        <div class="instituto-item" data-bs-toggle="modal" data-bs-target="#imagenModal">
+          <img src="./Assets/Instituto${i}.jpeg" alt="Instituto ${i}" class="img-fluid rounded">
+        </div>
+      `;
+      col.querySelector("img").addEventListener("click", (e) => {
+        const modalImg = document.getElementById("imagenModalImg");
+        modalImg.src = e.target.src;
+        modalImg.alt = e.target.alt;
+      });
+      galeria.appendChild(col);
+    }
+  }
 });
